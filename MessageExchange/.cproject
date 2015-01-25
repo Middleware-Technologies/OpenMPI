@@ -23,8 +23,7 @@
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1633669104" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.debugging.level.2047763057" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.945368588" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="/home/middleware/.openmpi/bin"/>
-									<listOptionValue builtIn="false" value="/home/middleware/.openmpi/lib"/>
+									<listOptionValue builtIn="false" value="/home/middleware/.openmpi/include"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1380702676" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
@@ -33,9 +32,7 @@
 								<option id="gnu.cpp.compiler.option.debugging.level.1501478802" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 							</tool>
 							<tool command="mpicc" id="cdt.managedbuild.tool.gnu.cross.c.linker.1075999234" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker">
-								<option id="gnu.c.link.option.paths.666218212" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
-									<listOptionValue builtIn="false" value="/home/middleware/.openmpi/lib/openmpi"/>
-								</option>
+								<option id="gnu.c.link.option.paths.666218212" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths"/>
 								<option id="gnu.c.link.option.libs.1093482635" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="mpi"/>
 								</option>

@@ -4,10 +4,12 @@
  Author      : Luca
  Version     :
  Description : Exchange a message between thread
- To execute:
+ Instruction:
  	 - Install PTP plugin for eclipse
- 	 - Set in preferences>parallel language>>mpi the MPI'S paths (bin,lib)
- 	 - Set the execution configuration (num thread,ecc)
+ 	 - ImportProject
+ 	 - Right Click on Project >Properties>Paths AND Symbols
+ 	     In includes tab add the Include Folder of your MPI'INSTALLATION FOLDER
+
  ============================================================================
  */
 #include <mpi.h>
