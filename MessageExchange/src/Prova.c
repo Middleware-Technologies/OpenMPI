@@ -9,6 +9,7 @@
  	 - ImportProject
  	 - Right Click on Project >Properties>Paths AND Symbols
  	     In includes tab add the Include Folder of your MPI'INSTALLATION FOLDER
+ 	       (.openmpi/include)
 
  ============================================================================
  */
