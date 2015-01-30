@@ -37,6 +37,8 @@ int main(int argc, char *argv[])
 	/* find out number of processes */
 	MPI_Comm_size(MPI_COMM_WORLD, &num_procs); 
 
+
+	printf("Process %d\n",my_rank);
 	if (my_rank != 0)   //IF I'M ANOTHER THREAD
 	{
 		/* create message */
